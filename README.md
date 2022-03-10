@@ -6,6 +6,9 @@ An active Kickstarter campaign that raised much of its funding goal in a short a
 ## Analysis and Challenges
 In one of the reviews, the success rates are charted based on which quarter and which month garnered the highest success rates. A pivot table is created from the Kickstarter data to isolate the specific population.  In order to gather only the "Theatre" population, the Parent Category and Years are used as filters. In the next section are the Outcomes set on the column and value sections. Finally, Date Created Conversion is placed in the rows portion of the pivot table. With these steps in mind, an adequate pivot table is created that highlights the relationship between the months of the year and its success, fails, and cancelled rates. Additionally, a line graph illustrating trends over time is plotted against the pivot table.
 
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/99752443/157619652-3e3884d5-aada-4002-804d-1ff099b39c2a.png)
+
+
 ###### Outcomes Based on Goals
 The second analysis examines trends within the different funding goals and their success rates. First of all, the funding goals are divided into 12 subcategories of $1000 to $50000 in increments of $5000. By doing so, all the variations can be broken down into funding goals. The campaigns are then divided by success rate; successful, fails, and cancelled. Each success rate percentage is also calculated by dividing the number of each cell by the total number of projects. The COUNTIFS function allows us to filter through different types of success rates and their respective objectives. For example, this function allows us to find the number of successful campaigns between 10000 and 14999.
 ```
@@ -13,7 +16,7 @@ The second analysis examines trends within the different funding goals and their
 ```
 As a result, a line chart is used to show the trends. It shows the ratios of success, failure, and cancellation in relation to its goals.
 
-![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/99752443/157615382-d38cd636-4389-4e50-9a59-b9c4bb9e21f1.png)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/99752443/157619505-56767fda-8e6c-4021-816b-d788c077b810.png)
 
 
 ###### Challenges
