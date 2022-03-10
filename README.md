@@ -2,7 +2,7 @@
 
 ## Overview
 
-An active Kickstarter campaign that raised much of its funding goal in a short amount of time is being compared to others in the same industry. With the given Kickstarter data set, we examine the relationship between launch dates and funding goals. In this study, successful, fails, and cancelled campaigns are examined for specific categories and subcategories. By the end of the review, the report will identify the most optimal date and funding goals for the campaign to have the greatest chance of success and compare them to the current status of the campaign.
+An active Kickstarter campaign that raised much of its funding goal in a short amount of time is being compared to others in the same industry. With the given Kickstarter data set, we examine the relationship between launch dates and funding goals. In this study, successful, failed, and cancelled campaigns are examined for specific categories and subcategories. By the end of the review, the report will identify the most optimal date and funding goals for the campaign to have the greatest chance of success and compare them to the current status of the campaign.
 
 ## Analysis and Challenges
 
@@ -13,7 +13,7 @@ In one of the reviews, the success rates are charted based on which quarter and 
 
 ###### Outcomes Based on Goals
 
-The second analysis examines trends within the different funding goals and their success rates. First of all, the funding goals are divided into 12 subcategories of $1000 to $50000 in increments of $5000. By doing so, all the variations can be broken down into funding goals. The campaigns are then divided by success rate; successful, fails, and cancelled. Each success rate percentage is also calculated by dividing the number of each cell by the total number of projects. The COUNTIFS function allows us to filter through different types of success rates and their respective objectives. For example, this function allows us to find the number of successful campaigns between 10000 and 14999.
+The second analysis examines trends within the different funding goals and their success rates. First of all, the funding goals are divided into 12 subcategories of $1000 to $50000 in increments of $5000. By doing so, all the variations can be broken down into funding goals. The campaigns are then divided by success rate; successful, failed, and cancelled. Each success rate percentage is also calculated by dividing the number of each cell by the total number of projects. The COUNTIFS function allows us to filter through different types of success rates and their respective objectives. For example, this function allows us to find the number of successful campaigns between 10000 and 14999.
 ```
 =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,"<1000",Kickstarter!$R:$R,"plays")
 ```
