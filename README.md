@@ -33,5 +33,5 @@ Still, in order to design an optimized marketing campaign for the client, furthe
 * To determine the popularity of the **Theatre/Plays** segment on Kickstarter, we have to determine the number of successful plays / failed plays / canceled plays during each year. By doing so, we can determine if Kickstarter is still a viable platform for raising funds or should we opt for another.
 * By finding the relationship between the length of the campaign and the success / failure / cancellation rate of each, usually divided by the number of days a campaign is active, you can calculate the optimal campaign length.
 * A key aspect of the campaign is finding checkpoints along its length that will indicate if the funds are raised successfully. This is most likely done if more detail is provided as to which part of the campaign is successful. As an indication of the likelihood of success, not only can the campaign be designed effectively but can also be evaluated.
-* 
+
 Conclusion: The analysis with the provided data has met the client's needs, however there are more details left on the table that can benefit the client's Kickstarter campaign.
